@@ -1,6 +1,13 @@
 # test-mermaid
 
 ```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+```mermaid
   graph TD;
       A-->B;
       A-->C;
