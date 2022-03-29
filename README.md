@@ -1,4 +1,4 @@
-# test-mermaid7
+# test-mermaid
 
 ```mermaid
 erDiagram
